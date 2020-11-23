@@ -1,5 +1,8 @@
 package lab1;
 
+import java.time.Duration;
+import java.time.Instant;
+
 public class Challenge1 {
 
     public static void main(String[] args) {
@@ -20,6 +23,25 @@ public class Challenge1 {
         int [] arr2 = {-1,-1,-1,2};
         System.out.println(pairOfThree(arr2));
 
+
+        System.out.println("\n\n\n\n");
+        Integer i1 = 128;
+        Integer i2 = 128;
+        System.out.println(i1.equals(i2));
+        System.out.println(i1==i2);
+
+        Instant start1 = Instant.now();
+        for(int i= 0; i<10000000; i++);
+        Instant stop1 = Instant.now();
+        Duration duration1 = Duration.between(start1, stop1);
+        System.out.println("Using primitives: " + duration1);
+
+
+        Instant start2 = Instant.now();
+        for(Integer i= 0; i<10000000; i++);
+        Instant stop2 = Instant.now();
+        Duration duration2 = Duration.between(start2, stop2);
+        System.out.println("Using wrapper: " + duration2);
     }
 
     public static void challengeOne(){
