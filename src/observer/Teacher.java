@@ -15,4 +15,7 @@ public class Teacher implements ObservedSubject{
     public void notifyObservers(String message) {
 
     }
+
+    public void teach(String javaTopic) {
+    }
 }

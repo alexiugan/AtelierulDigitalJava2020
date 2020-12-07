@@ -17,4 +17,8 @@ public class Student implements Observer{
     public void propertyChange(PropertyChangeEvent evt) {
 
     }
+
+
+    public void listenTo(Teacher teacher) {
+    }
 }
