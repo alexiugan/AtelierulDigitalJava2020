@@ -10,7 +10,6 @@ public class Student implements Observer{
     }
     @Override
     public void update(String message) {
-
     }
 
     @Override
