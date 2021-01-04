@@ -1,4 +1,4 @@
-package ch8;
+package lab6.ch8;
 
 
 public class MyArrayList<T> implements MyArrayListInterface<T> {

@@ -1,4 +1,4 @@
-package ch7;
+package lab6.ch7;
 
 import java.util.ArrayList;
 
@@ -72,7 +72,7 @@ public class MyHashTable<K, V> implements myHashTableInterface<K, V>{
             {
                 while (headNode != null)
                 {
-                    bucket.add(headNode.key, headNode.value);
+                   // bucket.add(headNode.key, headNode.value);
                     headNode = headNode.next;
                 }
             }

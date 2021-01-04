@@ -1,4 +1,4 @@
-package ch7;
+package lab6.ch7;
 
 public class HashNode<K, V> {
     K key;
