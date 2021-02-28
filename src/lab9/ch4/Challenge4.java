@@ -31,5 +31,4 @@ public class Challenge4 {
                 .subscribe(System.out::println);
     }
 
-
 }
